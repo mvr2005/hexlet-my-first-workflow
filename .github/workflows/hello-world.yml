@@ -1,6 +1,6 @@
 name: hello-world
 on: push
-jobs:
+jobs: console.log('Hello, World!')
 boulid: 
 runs-on: ubuntu-latest
 steps:
