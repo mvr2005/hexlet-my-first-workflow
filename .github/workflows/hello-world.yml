@@ -1,8 +1,8 @@
 name: hello-world
 on: push
-jobs: make say-hello
-boulid: 
-runs-on: ubuntu-latest
-steps:
-  - uses: actions/checkout@v2
-  - run: make say-hello
+jobs:
+  boulid: 
+  runs-on: ubuntu-latest
+  steps:
+    - uses: actions/checkout@v2
+    - run: make say-hello
